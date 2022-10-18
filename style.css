@@ -1,0 +1,60 @@
+h1 {
+    display: none;
+  }
+  @media screen and (max-width: 2000px) {
+    .Huge{
+      display: block;
+    }
+    body {
+      background-color: rgb(0, 38, 255);
+    }
+  }
+
+  h1 {
+    display: none;
+  }
+  @media screen and (max-width: 1200px) {
+    .Desktop{
+      display: block;
+    }
+    body {
+      background-color: rgb(168, 240, 0);
+    }
+  }
+
+  h1 {
+    display: none;
+  }
+  @media screen and (max-width: 992px) {
+    .Laptop{
+      display: block;
+    }
+    body {
+      background-color: orange;
+    }
+  }
+
+  h1 {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    .Tablet{
+      display: block;
+    }
+    body {
+      background-color: pink;
+    }
+  }
+
+  h1 {
+    display: none;
+  }
+  @media screen and (max-width: 576px) {
+    .Mobile{
+      display: block;
+    }
+    body {
+      background-color: lightblue;
+    }
+  }
+
